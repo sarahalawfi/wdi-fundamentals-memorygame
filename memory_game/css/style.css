@@ -43,10 +43,10 @@ header{
 nav{
 	background-color:#00A6B3;
 	padding:20px 0;
-<!-- nav bar items to scroll down to their respected positions on the page-->
+
    position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 0; 
 }
 main{
 	width:850px;
@@ -86,5 +86,19 @@ font-size: 0;
 }
 a:hover {
 border-color: white; 
+}
+
+#Reset {
+  background-color: #ff8080;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
 
